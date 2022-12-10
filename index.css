@@ -192,7 +192,7 @@ nav{
 .elem{
   width: 300px;
   height: 600px;
-  padding: 2%;
+  margin: 2%;
   
 }
 .elempic   {
@@ -207,13 +207,13 @@ nav{
 .jh{
   width: 300px;
   height: 600px;
-  padding: 2%;
+  margin: 2%;
  
 }
 .sh{
   width: 300px;
   height: 600px;
-  padding: 2%;
+  margin: 2%;
 
 }
 .jhpic   {
@@ -226,7 +226,7 @@ nav{
 .college{
   width: 300px;
   height: 600px;
-  padding: 2%;
+  margin: 2%;
   
 }
 .collegepic   {
