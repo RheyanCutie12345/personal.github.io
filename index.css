@@ -185,6 +185,7 @@ nav{
   flex-direction: column;
   flex-wrap: nowrap;
   margin-top: 800px;
+    width: 100%;
 }
 .flex{
   margin-bottom: 20%;
