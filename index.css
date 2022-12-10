@@ -278,7 +278,7 @@ nav{
 }
 .elempic   {
     border-radius: 50%;
-    width: 25%;
+    width: 100%;
     height: 300px;
     
     filter: grayscale(30%);
@@ -298,7 +298,7 @@ nav{
  
 }
 .jhpic   {
-    width: 25%;
+    width: 100%;
     height: 300px;
     border-radius: 50%; 
      filter: grayscale(30%);
@@ -311,7 +311,7 @@ nav{
     
 }
 .collegepic   {
-    width: 25%;
+    width: 100%;
     height: 300px;
     filter: grayscale(30%);
 }
