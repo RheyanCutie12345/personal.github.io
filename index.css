@@ -1,0 +1,487 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+header:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(20px);
+    background: inherit;
+   
+}
+
+nav li{
+    display: inline-block;
+    padding: 40px;
+    margin-top: -20%;
+  
+}
+nav li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+nav li a:hover{
+    color: yellow;
+    text-decoration: underline ;
+    font-size: 35px;
+}
+.navbar{
+float: right;
+padding-top: -10%;
+
+}
+
+.title{
+    padding-left: 5%;
+}
+.pic{
+    width: 35%;
+    height: 700px;
+    background-image: url("media/pic.png");
+    background-size: fill;
+    background-repeat: no-repeat;
+    filter: grayscale(50%);
+    
+float: right;
+}
+#myname{
+    color: white;
+    font-size: 50px;
+    font-family: "Cooper Black", serif;
+    text-shadow: 3px 0px 10px green;
+}
+.name{
+    width: 50% ;
+    height: 700px;
+   float: left;
+  text-align: center;
+ 
+}
+.ys{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "Cooper Black", serif;
+    animation: pop 3s;
+    text-shadow: 3px 0px 10px green;
+}
+.button{
+    width: 40%;
+    height: 70px;
+    background-color:orange ;
+    border-radius: 20px;
+    font-size: 30px;
+    animation: pop 4s;
+    border: 1px solid white;
+
+}
+.button:hover{
+   border: 3px inset white;
+   width: 45%;
+}
+.white{
+background-color: black;
+color: white;
+}
+.orange{
+background-color: orange;
+color: black;
+border-radius: 10px;
+}
+@font-face {
+    font-family: "Cooper Black";
+    src: url("/fonts/cooper-black.otf");
+  }
+  @keyframes pop {
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+  }
+ .aboutMe{
+    margin-top: 800px;
+  text-align: center;
+  margin-bottom: 200px;
+ }
+  .aboutPic{
+    background-image: url("media/rheyan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 50%;
+    margin: 1px;
+    display: block;
+    box-shadow: 0px 0px 50px 50px black inset;
+    filter: grayscale(30%);
+  }
+  .aboutContent{
+      color: white;
+    height: 500px;
+    width: 50%;
+    font-size: 18px;
+   
+  }
+  .flex{
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  footer{
+    height: 200px;
+    width: 100%;
+    background-color: orange;
+  }
+  .submitted{
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+  }
+
+@media screen  and (max-width: 480px){
+.title{
+    text-align: center;
+}
+nav li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   
+}
+.aboutContent{
+  font-size: 80%;
+}
+nav{
+    margin-top: 15%;
+    
+}
+.contain{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-top: 800px;
+}
+.flex{
+  margin-bottom: 20%;
+}
+.elem{
+  width: 300px;
+  height: 600px;
+  padding: 2%;
+  
+}
+.elempic   {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  
+  filter: grayscale(30%);
+
+
+}
+.jh{
+  width: 300px;
+  height: 600px;
+  padding: 2%;
+ 
+}
+.sh{
+  width: 300px;
+  height: 600px;
+  padding: 2%;
+
+}
+.jhpic   {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; 
+   filter: grayscale(30%);
+
+}
+.college{
+  width: 300px;
+  height: 600px;
+  padding: 2%;
+  
+}
+.collegepic   {
+  width: 300px;
+  height: 300px;
+  filter: grayscale(30%);
+}
+.educbutton{
+  width: 80%;
+  height: 70px;
+  background-color:orange ;
+  border-radius: 20px;
+  font-size: 30px;
+  border: 10px outset green;
+  margin-left: 10%;
+  font-family: fantasy;
+
+}
+.educbutton:hover{
+ border: 3px inset white;
+ width: 85%;
+}
+}
+
+.educatt{
+    font-family: cursive;
+    font-size: 40px;
+}
+.contain{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    
+    
+}
+.elem{
+    width: 25%;
+    height: 600px;
+    padding: 2%;
+    
+}
+.elempic   {
+    border-radius: 50%;
+    width: 25%;
+    height: 300px;
+    
+    filter: grayscale(30%);
+
+
+}
+.jh{
+    width: 25%;
+    height: 600px;
+    padding: 2%;
+   
+}
+.sh{
+    width: 25%;
+    height: 600px;
+    padding: 2%;
+ 
+}
+.jhpic   {
+    width: 25%;
+    height: 300px;
+    border-radius: 50%; 
+     filter: grayscale(30%);
+
+}
+.college{
+    width: 25%;
+    height: 600px;
+    padding: 2%;
+    
+}
+.collegepic   {
+    width: 25%;
+    height: 300px;
+    filter: grayscale(30%);
+}
+.educbutton{
+    width: 80%;
+    height: 70px;
+    background-color:orange ;
+    border-radius: 20px;
+    font-size: 30px;
+    border: 10px outset green;
+    margin-left: 10%;
+    font-family: fantasy;
+
+}
+.educbutton:hover{
+   border: 3px inset white;
+   width: 85%;
+}
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  .modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  .modal3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  .modal4 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: orange;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px white;
+    border: 1px solid #888;
+    width: 80%;
+    animation: slide 1s;
+  }
+  @keyframes slide {
+    0%{
+        margin-top: 0%;
+        opacity: 0;
+    }
+    100%{
+        margin-top: 5%;
+        opacity: 1;
+    }
+  }
+  /* The Close Button */
+  .close1 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close1:hover,
+  .close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .close2{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .close3 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close3:hover,
+  .close3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .close4 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close4:hover,
+  .close4:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .schoolTitle{
+    text-align: center;
+  }
+  .modcot{
+    display: inline-block;
+    vertical-align: top;
+  }
+  .cont{
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    font-family: Tahoma;
+    font-size: 20px;
+  }
+  #EA{
+    width: 100%;
+    height: 800px;
+    display: block;
+  }
+  .pics2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 50%;
+    height: 700px;
+  }
