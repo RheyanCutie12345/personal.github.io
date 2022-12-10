@@ -46,7 +46,7 @@ padding-top: -10%;
 .pic{
     width: 35%;
     height: 700px;
-    background-image: url("media/pic.png");
+    background-image: url("pic.png");
     background-size: fill;
     background-repeat: no-repeat;
     filter: grayscale(50%);
@@ -127,7 +127,7 @@ border-radius: 10px;
   margin-bottom: 200px;
  }
   .aboutPic{
-    background-image: url("media/rheyan.jpg");
+    background-image: url("rheyan.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
